@@ -1,0 +1,54 @@
+.app {
+    font-family: Roboto,arial,sans-serif;
+    text-align: center;
+}
+
+.header {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.error-message {
+    color: #A3A4A5;
+    font-size: 14px;
+}
+
+.commits-table {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+}
+
+.message {
+    width: 67%;
+    text-align: justify;
+}
+
+.commit-link:visited {
+    color: blue;
+}
+
+.commit-link:hover {
+    color: #3D76F0;
+}
+
+.load-more {
+    margin-top: 20px;
+    width: 10em;
+    padding: 8px;
+    cursor: pointer;
+}
